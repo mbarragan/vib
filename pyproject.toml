@@ -1,0 +1,10 @@
+[project]
+name = "vib"
+version = "0.1.0"
+requires-python = ">=3.14"
+dependencies = []
+description = "Configurador simple para mover el puntero automaticamente"
+readme = "README.md"
+
+[project.scripts]
+vib-jiggler = "mouse_jiggler.main:main"
